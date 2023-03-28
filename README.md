@@ -42,3 +42,25 @@ Esta pequeña app te ayudará a visualizar los ciclos de vida de un componente y
   ```bash
   pnpm run dev
   ```
+
+## Construido usando:
+
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [Tailwind](https://tailwindcss.com/)
+
+## Configuracion sugerida:
+
+- `.vscode/settings.json`
+
+  ```json
+  {
+    "editor.formatOnSave": true,
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  }
+  ```

@@ -4,10 +4,12 @@ import LifeCycle from "./LifeCycle"
 
 import OptionPicker from "../components/OptionPicker"
 import Hooks from "./Hooks"
+import TypeList from "./TypeList"
 
 const OPTIONS = [
   { optionId: "function-hooks", label: "Hooks" },
   { optionId: "class-lifecycle", label: "Lifecycle" },
+  { optionId: "pokemon-type-list", label: "Poke List" },
 ]
 
 export default function Pages() {
@@ -19,6 +21,8 @@ export default function Pages() {
         return <Hooks />
       case "class-lifecycle":
         return <LifeCycle />
+      case "pokemon-type-list":
+        return <TypeList />
       default:
         return <h3>There was an error</h3>
     }

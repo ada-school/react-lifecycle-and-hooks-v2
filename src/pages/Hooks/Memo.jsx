@@ -13,7 +13,7 @@ function fib(n) {
 export default function Memo() {
   const [fibIndex, setFibIndex] = useState(0)
   const fibResult = useMemo(() => fib(fibIndex), [fibIndex])
-  //const fibResult = fib(index)
+  //const fibResult = fib(fibIndex)
 
   const [time, setTime] = useState(new Date())
   useEffect(() => {

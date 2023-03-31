@@ -15,7 +15,8 @@ export default function Effect() {
   useEffect(() => {
     console.log("Component updated!")
   })
-  console.log("Componente rendered!")
+
+  console.log("Component rendered!")
   return (
     <div className="w-full h-full items-center justify-center flex flex-col gap-y-6">
       <p>{`Current count: ${counter}`}</p>
